@@ -90,10 +90,10 @@
 
         layer_1 {
             bindings = <
-&trans  &trans             &trans             &kp UP_ARROW     &trans                &trans  &kp SQT            &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &kp PLUS   &trans
-&trans  &kp LC(LG(SPACE))  &kp LEFT           &kp DOWN         &kp RIGHT             &trans  &kp DOUBLE_QUOTES  &kp NUMBER_4       &kp N5        &kp NUMBER_6  &kp MINUS  &trans
-&trans  &kp LEFT_SHIFT     &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp LS(LG(NUMBER_4))  &trans  &kp GRAVE          &kp N7             &kp N8        &kp NUMBER_9  &kp EQUAL  &trans
-                                              &trans           &trans                &trans  &kp DEL            &kp LG(BACKSPACE)  &trans
+&trans  &kp ESCAPE         &trans             &kp UP_ARROW     &trans                &trans             &kp SQT            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS   &trans
+&trans  &kp LC(LG(SPACE))  &kp LEFT           &kp DOWN         &kp RIGHT             &kp LG(BACKSPACE)  &kp DOUBLE_QUOTES  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &trans
+&trans  &kp LEFT_SHIFT     &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp LS(LG(NUMBER_4))  &kp LA(BACKSPACE)  &kp GRAVE          &kp N7        &kp N8        &kp NUMBER_9  &kp EQUAL  &trans
+                                              &trans           &trans                &trans             &kp DEL            &kp NUMBER_0  &trans
             >;
         };
 
@@ -108,10 +108,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans             &trans             &trans  &trans  &kp LC(LA(LEFT))  &kp LC(LA(U))   &kp LC(LA(I))  &kp LC(LA(RIGHT))  &trans
-&trans  &trans  &trans  &kp LS(LA(LG(K)))  &kp LS(LG(SEMI))   &trans  &kp LC(LA(RETURN))   &kp LC(LA(D))             &kp LC(LA(F))   &kp LC(LA(G))  &trans             &trans
-&trans  &trans  &trans  &kp LS(LC(LG(C)))  &kp LS(LA(LG(C)))  &trans  &kp LC(LA(E))   &kp LC(LA(T))             &kp LC(LA(J))   &kp LC(LA(K))  &trans             &trans
-                        &trans             &trans             &trans  &trans  &trans            &trans
+&trans  &trans  &trans  &trans             &trans             &trans  &trans              &kp LC(LA(LEFT))  &kp LC(LA(U))  &kp LC(LA(I))  &kp LC(LA(RIGHT))  &trans
+&trans  &trans  &trans  &kp LS(LA(LG(K)))  &kp LS(LG(SEMI))   &trans  &kp LC(LA(RETURN))  &kp LC(LA(D))     &kp LC(LA(F))  &kp LC(LA(G))  &trans             &trans
+&trans  &trans  &trans  &kp LS(LC(LG(C)))  &kp LS(LA(LG(C)))  &trans  &kp LC(LA(E))       &kp LC(LA(T))     &kp LC(LA(J))  &kp LC(LA(K))  &trans             &trans
+                        &trans             &trans             &trans  &trans              &trans            &trans
             >;
         };
     };

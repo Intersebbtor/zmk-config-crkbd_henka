@@ -43,6 +43,10 @@
         }; 
     };
 
+    &mt {
+        tapping-term-ms = <300>; // Globaler Tapping-Term für Mod-Tap
+    };
+
     macros {
         ae: ae {
             compatible = "zmk,behavior-macro";

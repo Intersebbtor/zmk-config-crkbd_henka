@@ -35,12 +35,6 @@
             bindings = <&kp RIGHT_SHIFT>, <&kp RALT>;
         };
 
-        mo13: mo13 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "MO13";
-            #binding-cells = <0>;
-            bindings = <&mo 0>, <&mo 0>;
-        }; 
         cmt: cust_mod_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "CUST_MOD_TAP";

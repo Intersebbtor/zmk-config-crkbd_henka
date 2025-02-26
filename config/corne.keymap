@@ -34,8 +34,15 @@
             tapping-term-ms = <200>;
             bindings = <&kp RIGHT_SHIFT>, <&kp RALT>;
         };
+
+        mo13: mo13 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "MO13";
+            #binding-cells = <0>;
+            bindings = <&mo 0>, <&mo 0>;
+        }; 
     };
-    
+
     macros {
         ae: ae {
             compatible = "zmk,behavior-macro";

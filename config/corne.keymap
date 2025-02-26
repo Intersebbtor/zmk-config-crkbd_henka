@@ -34,7 +34,8 @@
             tapping-term-ms = <200>;
             bindings = <&kp RIGHT_SHIFT>, <&kp RALT>;
         };
-
+    };
+    
     macros {
         ae: ae {
             compatible = "zmk,behavior-macro";

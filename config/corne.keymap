@@ -44,7 +44,7 @@
             quick-tap-ms = <135>;
             global-quick-tap;
             bindings = <&kp>, <&kp>;
-    };
+        };
 
     macros {
         ae: ae {

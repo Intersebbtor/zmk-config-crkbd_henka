@@ -41,6 +41,9 @@
             #binding-cells = <0>;
             bindings = <&mo 0>, <&mo 0>;
         };
+            &mt {
+            tapping-term-ms = <300>;
+        };  
     };
 
     macros {

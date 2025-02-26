@@ -41,10 +41,15 @@
             #binding-cells = <0>;
             bindings = <&mo 0>, <&mo 0>;
         }; 
-    };
-
-    &mt {
-        tapping-term-ms = <300>; // Globaler Tapping-Term für Mod-Tap
+        cmt: cust_mod_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "CUST_MOD_TAP";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <300>;
+            quick-tap-ms = <135>;
+            global-quick-tap;
+            bindings = <&kp>, <&kp>;
     };
 
     macros {
@@ -86,9 +91,9 @@
             label = "Base";
             bindings = <
 &trans  &kp Q             &kp W  &kp E   &kp R             &kp T            &kp Y        &kp U        &kp I      &kp O    &kp P                     &trans
-&trans  &mt LEFT_ALT A    &kp S  &kp D   &kp F             &kp G            &kp H        &kp J        &kp K      &kp L    &kp SEMI                  &trans
-&trans  &mt LEFT_SHIFT Z  &kp X  &kp C   &kp V             &kp B            &kp N        &kp M        &kp COMMA  &kp DOT  &mt LEFT_SHIFT BACKSLASH  &trans
-                                 &trans  &mt LEFT_GUI TAB  &lt 1 BACKSPACE  &lt 3 SPACE  &lt 2 ENTER  &trans
+&trans  &cmt LEFT_ALT A    &kp S  &kp D   &kp F             &kp G            &kp H        &kp J        &kp K      &kp L    &kp SEMI                  &trans
+&trans  &cmt LEFT_SHIFT Z  &kp X  &kp C   &kp V             &kp B            &kp N        &kp M        &kp COMMA  &kp DOT  &cmt LEFT_SHIFT BACKSLASH  &trans
+                                 &trans  &cmt LEFT_GUI TAB  &lt 1 BACKSPACE  &lt 3 SPACE  &lt 2 ENTER  &trans
             >;
         };
 

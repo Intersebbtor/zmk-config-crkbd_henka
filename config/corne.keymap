@@ -85,9 +85,9 @@
         default_layer {
             label = "Base";
             bindings = <
-&trans  &kp Q              &kp W  &kp E   &kp R              &kp T            &kp Y        &kp U        &kp I      &kp O    &kp P                      &trans
-&trans  &cmt LEFT_ALT A    &kp S  &kp D   &kp F              &kp G            &kp H        &kp J        &kp K      &kp L    &kp SEMI                   &trans
-&trans  &cmt LEFT_SHIFT Z  &kp X  &kp C   &kp V              &kp B            &kp N        &kp M        &kp COMMA  &kp DOT  &cmt LEFT_SHIFT BACKSLASH  &trans
+&trans  &kp Q              &kp W  &kp E   &kp R              &kp T            &kp Y        &kp U        &kp I      &kp O    &kp P                  &trans
+&trans  &cmt LEFT_ALT A    &kp S  &kp D   &kp F              &kp G            &kp H        &kp J        &kp K      &kp L    &kp SEMI               &trans
+&trans  &cmt LEFT_SHIFT Z  &kp X  &kp C   &kp V              &kp B            &kp N        &kp M        &kp COMMA  &kp DOT  &cmt LEFT_SHIFT SLASH  &trans
                                   &trans  &cmt LEFT_GUI TAB  &lt 1 BACKSPACE  &lt 3 SPACE  &lt 2 MINUS  &trans
             >;
         };

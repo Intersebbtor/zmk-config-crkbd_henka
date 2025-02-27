@@ -115,7 +115,7 @@
 &trans  &trans  &trans  &trans             &trans             &trans      &trans              &kp LC(LA(LEFT))  &kp LC(LA(U))  &kp LC(LA(I))  &kp LC(LA(RIGHT))  &trans
 &trans  &trans  &trans  &kp LS(LA(LG(K)))  &kp LS(LG(SEMI))   &trans      &kp LC(LA(RETURN))  &kp LC(LA(D))     &kp LC(LA(F))  &kp LC(LA(G))  &kp RETURN         &trans
 &trans  &trans  &trans  &kp LS(LC(LG(C)))  &kp LS(LA(LG(C)))  &trans      &kp LC(LA(E))       &kp LC(LA(T))     &kp LC(LA(J))  &kp LC(LA(K))  &trans             &trans
-                        &trans             &trans             &kp ESCAPE  &trans              &trans            &trans
+                        &trans             &kp LEFT_GUI       &kp ESCAPE  &trans              &trans            &trans
             >;
         };
     };

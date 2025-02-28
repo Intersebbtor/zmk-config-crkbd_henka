@@ -18,14 +18,15 @@
 #include <dt-bindings/zmk/keys.h>
 
 &mt {
-    tapping-term-ms = <200>;
+    tapping-term-ms = <150>;
     require-prior-idle-ms = <100>;
     flavor = "tap-preferred";
 };
 
 &lt { 
     tapping-term-ms = <150>;
-    require-prior-idle-ms = <125>; };
+    //require-prior-idle-ms = <125>; 
+    };
 
 / {
     behaviors {

@@ -19,10 +19,13 @@
 
 &mt {
     tapping-term-ms = <200>;
+    require-prior-idle-ms = <100>;
     flavor = "tap-preferred";
 };
 
-&lt { tapping-term-ms = <150>; };
+&lt { 
+    tapping-term-ms = <150>;
+    require-prior-idle-ms = <125>; };
 
 / {
     behaviors {
@@ -46,7 +49,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "LONG_MT";
             bindings = <&kp>, <&kp>;
-
+            require-prior-idle-ms = <125>;
             #binding-cells = <2>;
             tapping-term-ms = <300>;
             quick-tap-ms = <0>;

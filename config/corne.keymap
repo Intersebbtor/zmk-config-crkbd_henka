@@ -145,7 +145,7 @@
         layer_3 {
             label = "Magnet,Arc";
             bindings = <
-&trans  &trans          &trans  &trans             &trans             &trans      &kp LC(LG(LEFT))    &kp LC(LA(E))  &kp LC(LA(R))  &kp LC(LA(T))  &kp LC(LA(RIGHT))  &trans
+&trans  &trans          &trans  &trans             &trans             &trans      &kp LC(LA(LEFT))    &kp LC(LA(E))  &kp LC(LA(R))  &kp LC(LA(T))  &kp LC(LA(RIGHT))  &trans
 &trans  &trans          &trans  &kp LS(LA(LG(K)))  &kp LS(LG(SEMI))   &trans      &kp LC(LA(RETURN))  &kp LC(LA(D))  &kp LC(LA(F))  &kp LC(LA(G))  &kp RETURN         &trans
 &trans  &kp LEFT_SHIFT  &trans  &kp LS(LC(LG(C)))  &kp LS(LA(LG(C)))  &trans      &kp LC(LA(Z))       &kp LC(LA(C))  &kp LC(LA(V))  &kp LC(LA(B))  &kp LA(LC(X))      &trans
                                 &trans             &kp LEFT_GUI       &kp ESCAPE  &trans              &trans         &trans

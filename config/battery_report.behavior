@@ -1,0 +1,25 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+#include <zmk/battery.h>
+#include <zmk/endpoints.h>
+
+static void print_battery_levels() {
+    // Fetch battery levels
+    uint8_t left = zmk_battery_percent_left();
+    uint8_t right = zmk_battery_percent_right();
+
+    // Send as typed text (e.g., "Left: 85% -- Right: 62%")
+    zmk_endpoints_send_string("Left: ");
+    zmk_endpoints_send_string(zmk_battery_percent_to_str(left));
+    zmk_endpoints_send_string("% -- Right: ");
+    zmk_endpoints_send_string(zmk_battery_percent_to_str(right));
+    zmk_endpoints_send_string("%\n");
+}
+
+// Define the behavior
+ZBINDING(button, press) {
+    print_battery_levels();
+};

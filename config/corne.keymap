@@ -97,11 +97,11 @@
     combos {
         compatible = "zmk,combos";
 
-        bt_combo {
+        /*bt_combo {
             timeout-ms = <150>;
             key-positions = <25, 26, 27, 28>; // Z, X, C, V
             bindings = <&tog BT_Control>;
-        };
+        };*/
     };
 
     keymap {

@@ -141,8 +141,8 @@
             label = "Magnet,Arc";
             bindings = <
  &trans &kp ESCAPE    &trans  &trans  &trans  &trans    &kp LC(LA(LEFT))    &kp LC(LA(E))  &kp LC(LA(R))  &kp LC(LA(T))  &kp LC(LA(RIGHT)) &trans 
- &trans &kp LEFT_ALT  &trans  &trans  &trans  &trans    &kp LC(LA(RETURN))  &kp LC(LA(D))  &kp LC(LA(F))  &kp LC(LA(G))  &kp RETURN &trans 
- &trans &trans        &trans  &trans  &trans &tog 4    &kp LC(LA(Z))       &kp LC(LA(C))  &kp LC(LA(V))  &kp LC(LA(B))  &kp LA(LC(X)) &trans 
+ &trans &kp LEFT_ALT  &trans  &trans  &trans  &tog 4    &kp LC(LA(RETURN))  &kp LC(LA(D))  &kp LC(LA(F))  &kp LC(LA(G))  &kp RETURN &trans 
+ &trans &trans        &trans  &trans  &trans &trans   &kp LC(LA(Z))       &kp LC(LA(C))  &kp LC(LA(V))  &kp LC(LA(B))  &kp LA(LC(X)) &trans 
                             &trans    &trans  &trans    &trans              &trans &trans 
             >;
         };
